@@ -1,10 +1,10 @@
-GREEN='\033[0;32m'
-RED='\033[0;31m'
-BLUE='\033[0;34m'
+BLUE='\e[34m'
+RED='\e[31m'
+GREEN='\e[32m'
+NOCOLOR='\e[0m'
 
-echo -e "${BLUE}==> Pull${BLUE}" | sed -r "s/\x1B\[[0-9;]*[mGK]//g"
+echo -e "${BLUE}==> Pull${NOCOLOR}"
 git pull
-echo -e "${RED}==> Restart Nginx"
+echo -e "==> Restart Nginx${NOCOLOR}"
 sudo systemctl restart nginx
-echo -e "${GREEN}==> Success build"
-echo -e "$1\e[0m"
+echo -e "${GREEN}==> Success build${NOCOLOR}"
