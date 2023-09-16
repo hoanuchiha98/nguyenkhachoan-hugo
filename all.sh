@@ -8,5 +8,3 @@ git pull
 echo -e "${RED}==> Restart Nginx${NOCOLOR}"
 sudo systemctl restart nginx
 echo -e "${GREEN}==> Success build${NOCOLOR}"
-
-echo "ahjdj"
