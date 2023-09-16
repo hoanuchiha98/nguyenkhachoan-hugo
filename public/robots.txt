@@ -4,12 +4,6 @@ Disallow: /posts/2014/09/creating-a-new-theme/
 
 Disallow: /posts/2014/03/migrate-to-hugo-from-jekyll/
 
-Disallow: /categories/
-
-Disallow: /posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/
-
-Disallow: /categories/hugo/
-
 Disallow: /series/hugo-101/
 
 Disallow: /
@@ -22,7 +16,7 @@ Disallow: /about/
 
 Disallow: /posts/2014/04/hugo-template-primer/
 
-Disallow: /posts/2014/04/d%C3%A9buter-avec-hugo/
+Disallow: /categories/
 
 Disallow: /tags/development/
 
@@ -32,22 +26,14 @@ Disallow: /posts/2014/04/getting-started-with-hugo/
 
 Disallow: /tags/go/
 
-Disallow: /categories/go/
-
 Disallow: /tags/golang/
 
 Disallow: /categories/golang/
 
 Disallow: /tags/hugo/
 
-Disallow: /posts/2014/04/introduction-aux-mod%C3%A8les-hugo/
-
 Disallow: /tags/
 
 Disallow: /tags/templates/
 
 Disallow: /tags/themes/
-
-Disallow: /categories/jekyll/
-
-Disallow: /posts/2014/03/migrer-vers-hugo-depuis-jekyll/
