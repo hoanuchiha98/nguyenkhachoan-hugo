@@ -6,31 +6,31 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+paginate = 10
+rssLimit = 10  # Maximum number of items in the RSS feed.
 #copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
 
-buildDrafts  = false
-buildFuture  = false
+buildDrafts = false
+buildFuture = false
 buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
+enableGitInfo = false
+enableEmoji = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS = false
 disableSitemap = false
-disable404     = false
+disable404 = false
 disableHugoGeneratorInject = false
 
 [permalinks]
@@ -43,14 +43,14 @@ name = "NoLih"
 hrefTargetBlank = true
 
 [taxonomies]
-tag      = "tags"
+tag = "tags"
 category = "categories"
-series   = "series"
+series = "series"
 
 [params]
-dateform        = "Jan 2, 2006"
-dateformShort   = "Jan 2"
-dateformNum     = "2006-01-02"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 
 # Metadata mostly used in document's head
@@ -100,7 +100,7 @@ enableGlobalLanguageMenu = false
 # linking local files with their path relative to the static folder, e.g. "css/styles.css"
 #
 customCSS = []
-customJS  = []
+customJS = []
 
 # Toggle this option need to rebuild SCSS, requires extended version of Hugo
 #
@@ -121,8 +121,8 @@ author = true
 
 topText = []
 bottomText = [
-#    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-#    "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    #    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    #    "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
 ]
 
 # Colors for favicons
@@ -132,11 +132,11 @@ bottomText = [
 #msapplication = "#1b1c1d"
 #theme = "#1b1c1d"
 [params.meta]
-favicon      = true
+favicon = true
 
 [params.logo]
-logoMark     = ">"
-logoText     = "nolih"
+logoMark = ">"
+logoText = "nolih"
 logoHomeLink = "/"
 # Set true to remove the logo cursor entirely.
 # logoCursorDisabled = false
@@ -172,15 +172,15 @@ logoHomeLink = "/"
 
 [[params.social]]
 name = "email"
-url  = "mailto:hoanuchiha98@gmail.com"
+url = "mailto:hoanuchiha98@gmail.com"
 
 [[params.social]]
 name = "github"
-url  = "https://github.com/hoanuchiha98"
+url = "https://github.com/hoanuchiha98"
 
 [[params.social]]
 name = "linkedin"
-url  = "https://www.linkedin.com/in/hoannk9x/"
+url = "https://www.linkedin.com/in/hoannk9x/"
 
 #[[params.social]]
 #name = "stackoverflow"
@@ -189,7 +189,7 @@ url  = "https://www.linkedin.com/in/hoannk9x/"
 #[languages]
 #[languages.en]
 #subtitle  = "Hello Friend NG Theme"
-weight    = 1
+weight = 1
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"></a>'
 
 #[languages.fr]
@@ -200,9 +200,9 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
 [menu]
 [[menu.main]]
 identifier = "about"
-name       = "About"
-url        = "about/"
+name = "About"
+url = "about/"
 [[menu.main]]
 identifier = "posts"
-name       = "Posts"
-url        = "posts/"
+name = "Posts"
+url = "posts/"
