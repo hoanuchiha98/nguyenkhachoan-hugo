@@ -5,6 +5,6 @@ NOCOLOR='\e[0m'
 
 echo -e "${BLUE}==> Pull${NOCOLOR}"
 git pull
-echo -e "==> Restart Nginx${NOCOLOR}"
+echo -e "${RED}==> Restart Nginx${NOCOLOR}"
 sudo systemctl restart nginx
 echo -e "${GREEN}==> Success build${NOCOLOR}"
